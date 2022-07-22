@@ -63,3 +63,4 @@ console.log (lastName);
 
 let  age = prompt("Скільки років?");
 console.log (Number(age));
+
