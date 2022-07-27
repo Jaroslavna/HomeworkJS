@@ -76,4 +76,5 @@ let people =[
 ];
 
     people.forEach (function(pas) {console.log(pas.password)});
+    console.log(people[0].password);
 
