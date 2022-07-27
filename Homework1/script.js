@@ -38,15 +38,20 @@ document.write (pi);
 document.write (i);
 document.write (k);
 document.write (b1);
-document.write (b2);
+document.write (b2);*/
 
-let firstName =a= "Jaroslavna ";
+/*let firstName =a= "Jaroslavna ";
 let middleName =b= "Igorivna";
 let lastName =c= "Kostiv ";
 let persone=c+a+b;
-console.log(persone);*/
+console.log(persone);
+console.log (typeof persone);*/
+let v="5";
+let k="4";
+let m=v/k
+console.log (typeof m);
 
-let a = 100;
+/*let a = 100;
 let b = '100';
 let c = true;
 
@@ -62,5 +67,5 @@ let  lastName = prompt("Прізвище");
 console.log (lastName);
 
 let  age = prompt("Скільки років?");
-console.log (Number(age));
+console.log (Number(age));*/
 
