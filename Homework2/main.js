@@ -74,5 +74,6 @@ let people =[
     {name: 'No name', username:'Maxime_Nienow', password:'dgdfr46fh'},
     {name: 'Maxime_Nienow', username:'Nicholas Runolfsdottir V', password:'xgfgfx'}
 ];
+
     people.forEach (function(pas) {console.log(pas.password)});
 
