@@ -1,0 +1,14 @@
+img{
+    width: 100%;
+
+}
+div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #be7f7f 2px solid;
+}
+h3 {
+font-size:30px;
+}
