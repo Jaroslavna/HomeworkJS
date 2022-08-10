@@ -75,12 +75,11 @@
 
 //- є масив
 //let coursesAndDurationArray = [
-   // {title: 'FullStack', monthDuration: 67},
+   // {title: 'FullStack', monthDuration: 6},
   //  {title: 'QA Complex', monthDuration: 4},
 //    {title: 'JavaScript Complex', monthDuration: 5},
- //   {title: 'Java Complex', monthDuration: 61},
+ //   {title: 'Java Complex', monthDuration: 7},
  //   {title: 'Python Complex', monthDuration: 6},
- //   {title: 'FullStack', monthDuration: 78},
  //   {title: 'Frontend', monthDuration: 4},
  //   {title: 'FullStack', monthDuration: 9}
 
@@ -110,7 +109,7 @@
 //})
 //   coursesAndDurationArray.shift();
 //}
- //   console.log(coursesAndDurationArray);/// я не розумію як воно працює(((//
+ //   console.log(coursesAndDurationArray);
 
 //описати колоду карт
 //- знайти піковий туз
