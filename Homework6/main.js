@@ -156,7 +156,7 @@ let poker = [
 //console.log(card);
 
 //- всі трефи від 9 та більшe
-//let card=poker.filter(value => value.cardSuit ==='clubs'&& value.value!==8);
+//let card=poker.filter(value => value.cardSuit ==='clubs'&& value.value>'8'|| value.value==='10');
 //console.log(card);
 
 
