@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd83765-a754-42aa-b2f5-c1d4f58c09dd" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Homework8/homework8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework8/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sitejs/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sitejs/sitejs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sitejs/sitejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework9/homework9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework9/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,9 @@
       <workItem from="1660125505729" duration="20133000" />
       <workItem from="1660163183877" duration="751000" />
       <workItem from="1660164561755" duration="978000" />
-      <workItem from="1660727229861" duration="29324000" />
+      <workItem from="1660727229861" duration="29661000" />
+      <workItem from="1661108517461" duration="18351000" />
+      <workItem from="1661163087545" duration="6986000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1658503621435</created>
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660145349467</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add">
+      <created>1660772330228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660772330228</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
