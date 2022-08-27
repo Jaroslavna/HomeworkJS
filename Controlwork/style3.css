@@ -1,0 +1,32 @@
+body{
+    background: #73b7b4;
+}
+.divInfo1{
+    width: 90%;
+}
+
+.divCenter {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.divPost{
+    background: #2F8A85FF;
+    width: 20%;
+    height: 250px;
+    border: 1px solid #2c3038;
+    border-radius: 5px;
+    margin: 15px 15px 15px 15px;
+    word-break: break-all;
+}
+
+.buttonNext{
+    width: 100%;
+    border: 2px solid #2c3038;
+    border-radius: 5px;
+    padding: 15px 30px;
+
+}
