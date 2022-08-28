@@ -5,7 +5,22 @@
 let id = new URLSearchParams(document.location.search).getAll('data');
 
 let div =  document.createElement('div');
-div.innerText = `${localStorage.getItem('posts')}`;
+let keysPosts = div.innerText = JSON.parse(localStorage.getItem('posts'));
+function infoRec(obj)
+{
+    for ( let key in obj)
+    {
+        let value=obj[key];
+        let li = document.createElement('li');
+        li.innerText = `${key} ${value}`;
+        div.appendChild(li);
+        if (typeof value == "object") {
+            infoRec(value);
+        }
+    }
+}
+infoRec(keysPosts);
+
 document.body.appendChild (div);
 
 let divInfoNext = document.createElement('div');

@@ -8,7 +8,24 @@ let id = new URLSearchParams(document.location.search).getAll('data');
 
 let div =  document.createElement('div');
 div.classList.add('div');
-div.innerText = `${localStorage.getItem('users')}`;
+let keys = div.innerText = JSON.parse(localStorage.getItem('users'));
+
+
+function infoRec(obj)
+{
+    for ( let key in obj)
+    {
+        let value=obj[key];
+        let li = document.createElement('li');
+        li.innerText = `${key} ${value}`;
+        div.appendChild(li);
+        if (typeof value == "object") {
+            infoRec(value);
+        }
+    }
+}
+infoRec(keys);
+
 document.body.appendChild (div);
 
 let divInfo = document.createElement('div');
